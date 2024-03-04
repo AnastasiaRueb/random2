@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body class="page">
+<main class="main">
+ 
+</main>
+
+
+  <script>
+let names = ["Alissa", "Ana", "Veronika", "Marta"];
+let cities = ["Bangkok", "Venice", "Tokio", "Santiago"];
+
+function getRandomIndex(array) {
+        return Math.floor(Math.random() * array.length);
+}
+
+let randomName = names[getRandomIndex(names)];
+let randomCity = cities[getRandomIndex(cities)];
+console.log(randomName + " из " + randomCity);
+
+
+
+const words = ["apple", "banana", "pear", "orange", "kiwi", "tangerine", "pineapple", "plum", "grape", "peach"];
+
+const randomIndex = Math.floor(Math.random() * words.length);
+const randomWord = words[randomIndex];
+
+console.log("Random word: " + randomWord);
+    
+  </script>
+
+
+	</body>
+</html>
